@@ -3,7 +3,7 @@ public static int[] nextgreater(int arr[],int n)
 {
     Stack<Integer> st=new Stack<>();
     int a[]=new int[n];
-    for(int i=n-1;i>=0;i--)
+    for(int i=0;i<=n-1;i++)
     {
         if(st.size()==0)
         st.push(-1)
@@ -25,5 +25,5 @@ public static int[] nextgreater(int arr[],int n)
         st.push(arr[i]);
     }
     return a;
-}
+} 
 }
