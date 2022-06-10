@@ -1,0 +1,1 @@
+ // Minimum scalar product of two vectors 

@@ -1,0 +1,1 @@
+// Determine can all numbers of an array be made equal
